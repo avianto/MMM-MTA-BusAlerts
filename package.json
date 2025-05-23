@@ -1,0 +1,19 @@
+{
+  "name": "mmm-mta-busalerts",
+  "version": "1.0.0",
+  "description": "MagicMirror module for displaying MTA bus alerts",
+  "main": "MMM-MTA-BusAlerts.js",
+  "dependencies": {
+    "gtfs-realtime-bindings": "^1.1.1",
+    "node-fetch": "^3.3.2"
+  },
+  "keywords": [
+    "MagicMirror",
+    "MTA",
+    "bus",
+    "alerts",
+    "transit"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

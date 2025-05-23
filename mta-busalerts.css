@@ -1,0 +1,87 @@
+.mta-bus-alerts {
+    font-family: "Roboto Condensed", sans-serif;
+    color: #f2f2f2;
+    font-size: 0.9em;
+    line-height: 1.3;
+}
+
+.mta-bus-alerts .alerts-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.mta-bus-alerts .alert-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.mta-bus-alerts .alert-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.mta-bus-alerts .route-badge {
+    background-color: #0039A6; /* MTA Blue */
+    color: white;
+    font-weight: bold;
+    padding: 3px 6px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    margin-right: 0;
+    display: block;
+    margin-right: 8px;
+    min-width: 30px;
+    text-align: center;
+    font-size: 1em;
+    flex-shrink: 0;
+}
+
+.mta-bus-alerts .route-badge.general-alert-badge {
+    background-color: #ba3d3d;
+    font-size: 0.8em;
+}
+
+.mta-bus-alerts .badge-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 8px;
+    max-width: 60px;
+}
+
+.mta-bus-alerts .alert-content {
+    flex-grow: 1;
+}
+
+.mta-bus-alerts .alert-title {
+    font-weight: bold;
+    color: #FFC72C; /* MTA Yellow */
+    margin-bottom: 2px;
+    font-size: 0.95em;
+}
+
+.mta-bus-alerts .alert-description {
+    font-size: 0.85em;
+    color: #ccc;
+    margin-bottom: 4px;
+}
+
+.mta-bus-alerts .alert-timestamp {
+    font-size: 0.75em;
+    color: #999;
+}
+
+/* MagicMirror specific styling adjustments */
+.dimmed {
+    opacity: 0.6;
+}
+.light {
+    font-weight: 300;
+}
+.small {
+    font-size: 0.8em;
+}
