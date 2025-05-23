@@ -25,9 +25,6 @@ module.exports = NodeHelper.create({
         const url = "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fbus-alerts";
 
         try {
-            // Dynamic import for 'node-fetch' because it's an ESM module
-            const fetch = (await import('node-fetch')).default;
-
             const response = await fetch(url);
 
             if (!response.ok) {

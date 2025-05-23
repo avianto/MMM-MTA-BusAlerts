@@ -1,22 +1,17 @@
 {
   "name": "mmm-mta-busalerts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MTA realtime bus alerts module for MagicMirror².",
   "main": "MMM-MTA-BusAlerts.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/avianto/MMM-MTA-BusAlerts.git"
   },
-  "dependencies": {
-    "gtfs-realtime-bindings": "^1.1.1",
-    "node-fetch": "^3.3.2"
-  },
   "keywords": [
     "MagicMirror²",
-    "MagicMirror",
-    "transit", 
-    "mta", 
-    "bus", 
+    "transit",
+    "mta",
+    "bus",
     "alerts",
     "NYC",
     "New York City"
@@ -26,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/avianto/MMM-MTA-BusAlerts/issues"
   },
-  "homepage": "https://github.com/avianto/MMM-MTA-BusAlerts#readme"
+  "homepage": "https://github.com/avianto/MMM-MTA-BusAlerts#readme",
+  "dependencies": {
+    "gtfs-realtime-bindings": "^1.1.1"
+  }
 }
